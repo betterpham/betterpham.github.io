@@ -8,7 +8,8 @@ text-decoration: none;}
 .topnav {
     overflow: auto;
   }
-/* Style the links inside the navigation bar */
+  
+  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
     color: #262d6c;
@@ -18,17 +19,22 @@ text-decoration: none;}
     font-size: 17px;
   }
   
-/* Change the color of links on hover */
+  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
     color: #7b86ee;
   }
-/* stylizing the selected navigation bar link*/
+  
+/* 
+  Add a color to the active/current link  */
   .topnav a.active {
     text-decoration: underline;
   }
-/* make silly little hover effect for coursework*/
   .coursework a:hover {
     color:#262d6c;
     font-size: 110%;
+  }
+  .footnote {
+    position:fixed;
+    bottom: 0;
   }
